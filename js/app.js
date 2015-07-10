@@ -4,12 +4,12 @@
 
 require.config({
   paths: {
-    "jquery": "js/lib/jquery",
-    "underscore": "js/lib/underscore"
+    "jquery": "lib/jquery",
+    "underscore": "lib/underscore"
   }
 })
 
-require(['js/lib/modules/template'], function(template){
+require(['lib/modules/template'], function(template){
   debugger;
   template.showName("Lauren");
 });
