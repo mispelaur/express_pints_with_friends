@@ -10,6 +10,7 @@ require.config({
 })
 
 require(['lib/modules/template'], function(template){
-  debugger;
   template.showName("Lauren");
+  hi();
 });
+
